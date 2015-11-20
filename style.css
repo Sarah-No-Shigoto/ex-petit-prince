@@ -1,19 +1,73 @@
+body {
+	background: url("http://www.ludonaute.fr/wp-content/uploads/2014/02/Le_Petite_Prince_Wallpaper_by_Pureeyed.jpg") fixed no-repeat;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 header {
 	text-align: center;
+}
+
+.container {
+	background-color: white;
+}
+
+.jumbotron h1 {
+	color: rgb(255, 255, 255);
+	font-family: 'Lobster', cursive;
+}
+
+h1 {
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow:3px 3px 3px rgb(153, 153, 102);
 }
 
 article {
 	text-align: justify;
 }
 
+h2 {
+	margin-bottom: 30px;
+}
+
+h2:before {
+	font-family: FontAwesome;
+	content: "\f02d";
+	padding: 0 10px;
+}
+
 article ul {
 	list-style-type: none;
+	padding-left: 0;
 }
+
+#chap-one, #chap-two, #chap-three, #chap-four {
+	padding-top: 60px;
+}
+
 article ul li {
 	font-style: italic;
+	color: rgb(102, 102, 102);
 }
+
+article ul li:before {
+	content: "_";
+	margin-right: 3px;
+	position: relative;
+	bottom: 5px;
+}
+
+blockquote {
+	text-align: left;
+	font-size: 1em;
+}
+
 @media-screen and (max-width: 400px ) {
 	header p {
 		display: none;
 	}
 }
+
+
+
