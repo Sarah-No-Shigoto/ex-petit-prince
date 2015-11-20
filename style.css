@@ -1,11 +1,16 @@
 body {
 	background: url("http://www.ludonaute.fr/wp-content/uploads/2014/02/Le_Petite_Prince_Wallpaper_by_Pureeyed.jpg") fixed no-repeat;
+	box-sizing:border-box;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
 header {
 	text-align: center;
+}
+
+header nav ul li {
+	font-weight: bold;
 }
 
 .container {
@@ -20,11 +25,17 @@ header {
 h1 {
 	font-weight: bold;
 	text-decoration: underline;
-	text-shadow:3px 3px 3px rgb(153, 153, 102);
+	text-shadow:3px 3px 3px rgb(255, 204, 0);
 }
 
 article {
 	text-align: justify;
+}
+
+.border {
+	border-bottom: 1px solid black;
+	box-shadow: 3px 3px 3px grey;
+	margin: 0 10px 10px 0;
 }
 
 h2 {
@@ -35,6 +46,10 @@ h2:before {
 	font-family: FontAwesome;
 	content: "\f02d";
 	padding: 0 10px;
+}
+
+img {
+	width: 100%;
 }
 
 article ul {
